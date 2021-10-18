@@ -5,7 +5,7 @@
 // vue基本形
 import { reactive } from '@vue/reactivity';
 // firebase系
-import firebaseKey from './firebaseKey'
+import firebaseKey from './firebaseKey' // このファイルだけ自作してください
 import { initializeApp } from 'firebase/app'
 import { getDatabase, ref, set, onValue } from "firebase/database";
 // コンポーネント系
